@@ -8,4 +8,7 @@ func routes(_ app: Application) throws {
     app.get("hello") { req -> String in
         return "Hello, world!"
     }
+    app.get("getVideo") {req-> String in
+        return "https://www.youtube.com/watch?v=-l61NE0eqkw"
+    }
 }
